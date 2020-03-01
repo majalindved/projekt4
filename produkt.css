@@ -1,0 +1,46 @@
+main{
+  margin: auto;
+
+width: 80%;
+
+
+}
+
+
+
+.full{
+  width: 100%;
+  margin: auto;
+    display: flex;
+        flex-wrap: wrap;
+
+}
+.halv{
+  width: 50%;
+  margin: auto;
+  display: flex;
+
+}
+
+.produkt{
+  margin: auto;
+  width: 50%;
+  padding: 20px;
+  border: 2px solid black;
+  margin: 5px;
+ display: block;
+ text-align: center;
+}
+.produkt img<{
+  width: 100%;
+}
+
+.produkt h3{
+  text-align: center;
+
+}
+
+.produkt p<{
+  text-align: center;
+
+}
