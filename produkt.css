@@ -1,20 +1,31 @@
 main{
+
+  width: 100%;
   margin: auto;
+  display: flex;
+      flex-wrap: wrap;
 
-width: 80%;
+}
+.content{
 
+  width: 80%;
+  margin: auto;
+  display: flex;
 
 }
 
-
+.color{
+  width: 100%;
+  display: flex;
+  background-color: #F9F6EC;
+}
 
 .full{
   width: 100%;
-  margin: auto;
-    display: flex;
-        flex-wrap: wrap;
+  display: flex;
 
 }
+
 .halv{
   width: 50%;
   margin: auto;
@@ -26,7 +37,6 @@ width: 80%;
   margin: auto;
   width: 50%;
   padding: 20px;
-  border: 2px solid black;
   margin: 5px;
  display: block;
  text-align: center;
@@ -43,4 +53,10 @@ width: 80%;
 .produkt p<{
   text-align: center;
 
+}
+button{
+  background-color: #F8AD15;
+  color: white;
+  border: 0px;
+  padding: 5px 10px 5px 10px;
 }
