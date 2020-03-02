@@ -3,7 +3,7 @@ main{
   width: 100%;
   margin: auto;
   display: flex;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 
 }
 .content{
@@ -33,29 +33,19 @@ main{
 
 }
 
-.produkt{
+h1 {
   margin: auto;
   padding: 20px;
-  margin: 5px;
-  display: block;
   text-align: center;
 }
-.produkt img<{
-  width: 100%;
-}
 
-.produkt h3{
+p {
+  margin: auto;
+  padding: 20px;
+  text-align: left;
+}
+h2 {
+  margin: auto;
+  padding: 20px;
   text-align: center;
-
-}
-
-.produkt p<{
-  text-align: center;
-
-}
-button{
-  background-color: #F8AD15;
-  color: white;
-  border: 0px;
-  padding: 5px 10px 5px 10px;
 }
