@@ -1,8 +1,15 @@
+body {
+  margin:0px !important;
+}
+
 main{
   width: 100%;
   margin: auto;
   display: flex;
   flex-wrap: wrap;
+  overflow: hidden;
+  padding: 0px;
+  margin-bottom: 0px;
 
 }
 .content{
@@ -34,8 +41,41 @@ h1 {
   padding: 20px;
   text-align: center;
 }
-p {
+
+.kontakt {
+width: 50%;
+display: block !important;
+text-align: center;
+
+}
+
+.left {
+  text-align: left !important;
+
+}
+.top {
+  margin-top: 20px;
+}
+.bottom{
+  margin-bottom: 20px;
+}
+
+.kontaktheader {
+  width: 80%;
+  display: block;
+  text-align: center;
   margin: auto;
-  padding: 20px;
+}
+.kontakt h2 {
+  width:100%;
+  float: left;
   text-align: left;
+}
+
+iframe{
+padding: 20px;
+}
+
+.billedemellemrum {
+  padding: 20px;
 }
