@@ -1,0 +1,81 @@
+body {
+  margin:0px !important;
+}
+
+main{
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+  padding: 0px;
+  margin-bottom: 0px;
+
+}
+.content{
+  width: 80%;
+  margin: auto;
+  display: flex;
+
+}
+
+.color{
+  width: 100%;
+  display: flex;
+  background-color: #F9F6EC;
+}
+
+.full{
+  width: 100%;
+  display: flex;
+
+}
+.halv{
+  width: 50%;
+  margin: auto;
+  display: flex;
+}
+
+h1 {
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.kontakt {
+width: 50%;
+display: block !important;
+text-align: center;
+
+}
+
+.left {
+  text-align: left !important;
+
+}
+.top {
+  margin-top: 20px;
+}
+.bottom{
+  margin-bottom: 20px;
+}
+
+.kontaktheader {
+  width: 80%;
+  display: block;
+  text-align: center;
+  margin: auto;
+}
+.kontakt h2 {
+  width:100%;
+  float: left;
+  text-align: left;
+}
+
+iframe{
+padding: 20px;
+}
+
+.billedemellemrum {
+  padding: 20px;
+}
