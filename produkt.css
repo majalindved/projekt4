@@ -35,7 +35,7 @@ main{
 
 .produkt{
   margin: auto;
-  padding: 20px;
+  padding: 0px 20px 20px 20px;
   margin: 5px;
   display: block;
   text-align: center;
@@ -58,4 +58,36 @@ button{
   color: white;
   border: 0px;
   padding: 5px 10px 5px 10px;
+}
+
+.voresoel{
+  text-align: center;
+  max-width: 200px;
+}
+.voresoel button{
+  text-align: center;
+  margin: 0px 10px;
+}
+
+
+/* om os */
+
+.omos {
+  display: block !important;
+  text-align: center;
+}
+
+.historie{
+  width: 400px;
+  height: 300px;
+  margin: 40px 0px 0px 0px;
+  border-radius: 10px;
+}
+.historie-icon{
+  width: 200px;
+  height: 400px;
+}
+
+.m10{
+
 }
