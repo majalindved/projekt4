@@ -1,9 +1,17 @@
+
+body {
+  margin:0px !important;
+}
+
 main{
 
   width: 100%;
   margin: auto;
   display: flex;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
+  overflow: hidden;
+  padding: 0px;
+  margin-bottom: 0px;
 
 }
 .content{
@@ -12,6 +20,17 @@ main{
   margin: auto;
   display: flex;
 
+}
+
+.top {
+  margin-top: 20px;
+}
+.bottom{
+  margin-bottom: 20px;
+}
+
+.left {
+  text-align: left !important;
 }
 
 .color{
@@ -30,7 +49,17 @@ main{
   width: 50%;
   margin: auto;
   display: flex;
+}
 
+/* forside */
+
+.forside {
+
+}
+
+.halv h2{
+  text-align: center;
+  margin: auto;
 }
 
 .produkt{
@@ -68,6 +97,72 @@ button{
   text-align: center;
   margin: 0px 10px;
 }
+.voresoel h1{
+  text-align: center;
+  margin: auto;
+}
+/*Øl Smag */
+.oel{
+  text-align: center;
+  width: 60%;
+}
+
+.oel h1{
+  text-align: center;
+  margin: auto;
+}
+
+.billedemellemrum {
+  padding: 20px;
+}
+#smag {
+  width: 82%;
+}
+/*Arrangementer */
+
+.header1 {
+  width: 80%;
+  margin: auto;
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.kvart {
+  width: 20%;
+  margin: auto;
+  display: flex;
+
+}
+
+.resten {
+  width: 60%;
+  margin: auto;
+  display: flex;
+}
+
+
+
+/* Kontakt */
+
+.kontakt {
+width: 50%;
+display: block !important;
+text-align: center;
+}
+
+.kontaktheader {
+  width: 80%;
+  display: block;
+  text-align: center;
+  margin: auto;
+}
+.kontakt h2 {
+  width:100%;
+  float: left;
+  text-align: left;
+}
+
 
 
 /* om os */
@@ -83,6 +178,11 @@ button{
 margin: -200px 0px 0px 0px;
   border-radius: 10px;
 }
+.historie img{
+  width: 300px;
+  height: 200px;
+  border-radius: 10px;
+}
 .historie-icon{
   width: 200px;
   height: 400px;
@@ -94,11 +194,14 @@ margin: -200px 0px 0px 0px;
 
 
 
+
 /* The actual timeline (the vertical ruler) */
 .timeline {
   position: relative;
   max-width: 1200px;
   margin: 0 auto;
+  margin-top: 50px;
+  width: 60%;
 }
 
 /* The actual timeline (the vertical ruler) */
@@ -118,7 +221,7 @@ margin: -200px 0px 0px 0px;
   padding: 10px 40px;
   position: relative;
   background-color: inherit;
-  width: 50%;
+  width: 80%;
 }
 
 /* The circles on the timeline */
