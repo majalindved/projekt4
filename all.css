@@ -19,7 +19,6 @@ main{
   width: 80%;
   margin: auto;
   display: flex;
-  flex-direction: row;
 }
 
 .block{
@@ -32,13 +31,14 @@ main{
 }
 h1{
   text-align: center;
+  margin: 10px 0 20px 0;
 }
 
 .top {
-  margin-top: 20px;
+  padding-top: 20px;
 }
 .bottom{
-  margin-bottom: 20px;
+  padding-bottom: 20px;
 }
 
 .left {
@@ -49,6 +49,13 @@ h1{
   width: 100%;
   display: flex;
   background-color: #F9F6EC;
+}
+
+.colors{
+  width: 100%;
+  display: flex;
+  background-color: #612300;
+  color: white;
 }
 
 .full{
@@ -66,7 +73,15 @@ h1{
 /* forside */
 
 .forside {
-
+padding: 0px 40px 0px 40px;
+width: 30%;
+}
+.forside img{
+max-width: 300px;
+}
+.content h1{
+  text-align: center;
+  margin: auto;
 }
 
 .halv h2{
