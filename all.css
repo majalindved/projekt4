@@ -19,7 +19,19 @@ main{
   width: 80%;
   margin: auto;
   display: flex;
+  flex-direction: row;
+}
 
+.block{
+
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+
+}
+h1{
+  text-align: center;
 }
 
 .top {
@@ -62,6 +74,8 @@ main{
   margin: auto;
 }
 
+/* Om os */
+
 .produkt{
   margin: auto;
   padding: 0px 20px 20px 20px;
@@ -102,15 +116,7 @@ button{
   margin: auto;
 }
 /*Øl Smag */
-.oel{
-  text-align: center;
-  width: 60%;
-}
 
-.oel h1{
-  text-align: center;
-  margin: auto;
-}
 
 .billedemellemrum {
   padding: 20px;
@@ -120,13 +126,7 @@ button{
 }
 /*Arrangementer */
 
-.header1 {
-  width: 80%;
-  margin: auto;
-  display: block;
-  text-align: center;
-  margin-top: 20px;
-}
+
 
 .kvart {
   width: 20%;
@@ -151,12 +151,7 @@ display: block !important;
 text-align: center;
 }
 
-.kontaktheader {
-  width: 80%;
-  display: block;
-  text-align: center;
-  margin: auto;
-}
+
 .kontakt h2 {
   width:100%;
   float: left;
@@ -167,10 +162,6 @@ text-align: center;
 
 /* om os */
 
-.omos {
-  display: block !important;
-  text-align: center;
-}
 
 .historie{
   width: 400px;
