@@ -127,27 +127,43 @@ margin: auto;
   height: 350px;
 
 }
-/* Om os */
+/* Produkter */
 
 .produkt{
-  margin:auto;
-  padding: 0px 20px 20px 20px;
-  margin: 5px;
+
+
   flex-direction: column;
   text-align: center;
+  padding: 0px !important;
+  margin: 0px;
+  width: 25%;
 
 }
 
+.produkt p {
+    padding: 0px 10px 0px 10px;
+   text-align: center !important;
+ }
 
 .produkt h3{
   text-align: center;
 
 }
 
-.produkt p {
-  text-align: center;
-
+.btn {
+  border: 2px solid black;
+  outline: none;
+  padding: 10px 16px;
+  background-color: #f1f1f1;
+  cursor: pointer;
 }
+
+
+.active, .btn:hover {
+  background-color: #666;
+  color: white;
+}
+
 button{
   background-color: #F8AD15;
   color: white;

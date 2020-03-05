@@ -7,9 +7,20 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="all.css">
-        <link rel="stylesheet" href="new.css">
         <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
         <script src="https://kit.fontawesome.com/e89664a0cb.js" crossorigin="anonymous"></script>
+
+                  <script>
+          // Add active class to the current button (highlight it)
+          function toggleActiveState() {
+            this.classList.toggle('active');
+        }
+        var btns = document.querySelectorAll('.btn');
+        [].forEach.call(btns, function(btn) {
+          btn.addEventListener('click', toggleActiveState, false);
+        });
+</script>
+
     </head>
 
     <main>
@@ -33,9 +44,11 @@
       </div>
       <div class="full top bottom">
             <div class="content voresoel">
-              <button type="button"class="active" >Alle</button>
-              <button type="button">Fadøl</button>
-              <button type="button">Flaskeøl</button>
+              <div id="buttonid">
+              <button class="btn active">Alle</button>
+              <button class="btn">Fadøl</button>
+              <button class="btn">Flaskeøl</button>
+            </div>
             </div>
 
       </div>
@@ -191,36 +204,8 @@
 
                 </div>
       </div>
-      <div class="full  top bottom">
-          <div class="content">
-          <div class="produkt">
-            <img src="image/sandal-porter.png"  width="100%"/>
-            <h3>Fredericia Ale </h3>
-            <p>En lækker, letdrikkelig og frisk.</p>
-            <button type="button" onclick="location.href=''">Læs mere</button>
-            </div>
-            <div class="produkt">
-              <img src="image/7ernene.png" width="100%"/>
-              <h3>Fredericia Ale </h3>
-              <p>En lækker, letdrikkelig og frisk.</p>
-              <button type="button" onclick="location.href=''">Læs mere</button>
-              </div>
 
-          <div class="produkt">
-            <img src="image/sandal-porter.png"  width="100%"/>
-            <h3>Fredericia Ale </h3>
-            <p>En lækker, letdrikkelig og frisk.</p>
-            <button type="button" onclick="location.href=''">Læs mere</button>
-            </div>
-            <div class="produkt">
-              <img src="image/7ernene.png" width="100%"/>
-              <h3>Fredericia Ale </h3>
-              <p>En lækker, letdrikkelig og frisk.</p>
-              <button type="button" onclick="location.href=''">Læs mere</button>
-              </div>
 
-                </div>
-      </div>
       <div class="full color">
           <div class="content">
           <div class="produkt">
