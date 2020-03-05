@@ -31,7 +31,10 @@ main{
 }
 h1{
   text-align: center;
+  margin: auto;
+}
 
+h1, h2, h3, h4, h5{
   color: #612300;
 }
 
@@ -50,6 +53,10 @@ h1{
   width: 100%;
   display: flex;
   background-color: #F9F6EC;
+}
+
+.tekstcolorwhite {
+  color: #fff;
 }
 
 .dato {
@@ -79,7 +86,8 @@ h1{
 
 .forside {
 padding: 0px 40px 0px 40px;
-width: 30%;
+width: 33%;
+margin: auto;
 }
 .forside img{
 max-width: 300px;
@@ -92,11 +100,33 @@ max-width: 300px;
 }
 
 .forsidep {
-width: 68%;
+width: 62%;
 margin: auto;
 
 }
+#tekstposition {
+  margin: -250px 0px 30px 40px;
+  width: 40%;
+  float: left;
 
+}
+
+#tekstposition h1, #tekstposition p {
+  text-align: left;
+  color: #fff;
+  margin: 0px;
+
+}
+
+#forsideheader {
+  background-image: url('image/forsidebillede.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: right top;
+  width: 100%;
+  height: 350px;
+
+}
 /* Om os */
 
 .produkt{
@@ -252,29 +282,12 @@ margin: -200px 0px 0px 0px;
   z-index: 1;
 }
 
-/* Place the container to the left */
-.left {
-  left: 0;
-}
 
 /* Place the container to the right */
 .right {
   left: 50%;
 }
 
-/* Add arrows to the left container (pointing right) */
-.left::before {
-  content: " ";
-  height: 0;
-  position: absolute;
-  top: 22px;
-  width: 0;
-  z-index: 1;
-  right: 30px;
-  border: medium solid #F8AD15;
-  border-width: 10px 0 10px 10px;
-  border-color: transparent transparent transparent #F8AD15;
-}
 
 /* Add arrows to the right container (pointing left) */
 .right::before {
