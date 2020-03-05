@@ -31,7 +31,8 @@ main{
 }
 h1{
   text-align: center;
-  margin: 10px 0 20px 0;
+
+  color: #612300;
 }
 
 .top {
@@ -49,6 +50,10 @@ h1{
   width: 100%;
   display: flex;
   background-color: #F9F6EC;
+}
+
+.dato {
+  color: #F8AD15;
 }
 
 .colors{
@@ -79,30 +84,30 @@ width: 30%;
 .forside img{
 max-width: 300px;
 }
-.content h1{
-  text-align: center;
-  margin: auto;
-}
+
 
 .halv h2{
   text-align: center;
   margin: auto;
 }
 
+.forsidep {
+width: 68%;
+margin: auto;
+
+}
+
 /* Om os */
 
 .produkt{
-
+  margin:auto;
   padding: 0px 20px 20px 20px;
   margin: 5px;
   flex-direction: column;
   text-align: center;
 
 }
-.produkt img{
-  width: 80%;
-  height: 80%
-}
+
 
 .produkt h3{
   text-align: center;
@@ -111,9 +116,7 @@ max-width: 300px;
 
 .produkt p {
   text-align: center;
-  height: 20px;
-  overflow: hidden;
-  max-width: 300px;
+
 }
 button{
   background-color: #F8AD15;
