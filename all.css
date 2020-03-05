@@ -149,20 +149,22 @@ margin: auto;
   text-align: center;
 
 }
-
-.btn {
-  border: 2px solid black;
-  outline: none;
-  padding: 10px 16px;
-  background-color: #f1f1f1;
-  cursor: pointer;
+.produkt-button {
+  display: flex;
+}
+.produkt-button button{
+background-color: white;
+color: #000;
+border: 2px solid #F8AD15;
 }
 
 
-.active, .btn:hover {
-  background-color: #666;
-  color: white;
+.active {
+    background-color: #F8AD15 !important;
+    color:#fff;
 }
+
+
 
 button{
   background-color: #F8AD15;
