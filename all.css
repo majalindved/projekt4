@@ -184,7 +184,6 @@ margin: auto;
 #forsideheader {
   background-image: url('image/forsidebillede.png');
   background-repeat: no-repeat;
-  background-attachment: fixed;
   background-position: right top;
   width: 100%;
   height: 350px;
