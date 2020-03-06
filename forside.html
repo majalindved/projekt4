@@ -116,7 +116,10 @@
                 Hvis du vil høre mere om FREDERICIA BREWPUB’s VENNER, så mød op på den stiftende generalforsamling. Arrangementet afvikles i Fredericia Brewpub tirsdag
                 den 3. marts 2020  kl. 19 (ingen tilmelding nødvendig).
                 </p>
-                <button  onclick="location.href='arrangementer.html'"  type="button">Læs mere</button>
+
+                <button id="arrangement" class="float-left submit-button" >Læs mere</button>
+
+
               </div>
             </div>
             </div>
@@ -136,13 +139,21 @@
                   Måske får du mulighed for at smage Keizer Blauw og Whisky Infused på fad denne aften.
                   <br><br>
                   Tilmelding: Send 395 kr. til mobilepay: 424888 (skriv "Het Anker" i besked) </p>
-                  <button  onclick="location.href='arrangementer.html'"  type="button">Læs mere</button>
+                  <button id="arrangement1" class="float-left submit-button" >Læs mere</button>
                 </div>
               </div>
           </div>
         </div>
     </main>
+    <script type="text/javascript">
+        document.getElementById("arrangement").onclick = function () {
+            location.href = "arrangementer.html";
+        };
 
+        document.getElementById("arrangement1").onclick = function () {
+            location.href = "arrangementer.html";
+        };
+    </script>
     <body>
     </body>
 
