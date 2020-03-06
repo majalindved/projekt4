@@ -215,10 +215,10 @@ margin: auto;
   text-align: center;
 
 }
-.myDIV {
+#myDIV {
   display: flex;
 }
-.myDIV button{
+#myDIV button{
 background-color: white;
 color: #000;
 border: 2px solid #F8AD15;
