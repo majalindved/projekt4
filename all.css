@@ -163,8 +163,10 @@ text-align: left;
   white-space: wrap;
 }
 .forsidep {
-width: 62%;
+width: 82%;
 margin: auto;
+display: flex;
+justify-content: space-between;
 
 }
 #tekstposition {
