@@ -1,7 +1,7 @@
 @media only screen and (max-width: 780px) {
 
 
-/* ølsmagning */ 
+/* ølsmagning */
 .full {
   flex-direction: column;
 }
@@ -62,9 +62,27 @@ padding-bottom: 20px !important;
   width: 100%;
 }
 
+.kontakt {
+width: 100%;
+}
 
+#tekstposition {
+  width: 80% !important;
+}
 
+#tekstposition p{
+  display: none !important;
+}
 
+#tekstposition h1{
+  position: absolute;
+    top: 40px;
+    width: 60%;
+    right: 0px;
+    background-color: rgba(0,0,0,0.1);
+    padding: 10px;
+    float: right;
+}
 
 
 
