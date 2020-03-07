@@ -1,5 +1,26 @@
 @media only screen and (max-width: 780px) {
 
+      .menu-item{
+          display: block;
+          width: auto;
+          order: 1;
+      }
+
+      .toggle{
+          display: none;
+      }
+
+      .logo{
+          order: 0;
+      }
+
+      .search{
+          order: 3;
+      }
+
+      .menu li{
+          padding: 10px 20px;
+      }
 
 /* ølsmagning */
 .full {

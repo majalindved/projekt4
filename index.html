@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="da">
+    <body>
     <head>
         <meta charset="utf-8">
         <title>Fredericia Brewpub - specialøl - ølarrangementer - ølsmagning - bryggeri - pub - ølbutik</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
+          <link rel="stylesheet" href="all.css">
         <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
         <script src="https://kit.fontawesome.com/e89664a0cb.js" crossorigin="anonymous"></script>
     </head>
@@ -13,13 +15,13 @@
     <header>
         <nav>
             <ul class="menu">
-                <li class="logo"><a href="index.html"><img src="img/fredericia-brewpub-logo-15.png"></a></li>
+                <li class="logo"><a href="index.html"><img src="image/logo.png"></a></li>
                 <li class="menu-item"><a href="index.html" >Forside</a></li>
-                <li class="menu-item"><a href="">Vores øl</a></li>
-                <li class="menu-item"><a href="">Arrangementer</a></li>
-                <li class="menu-item"><a href="">Ølsmagning</a></li>
-                <li class="menu-item"><a href="">Om os</a></li>
-                <li class="menu-item"><a href="">Kontakt</a></li>
+                <li class="menu-item"><a href="vores-oel.html">Vores øl</a></li>
+                <li class="menu-item"><a href="arrangementer,html">Arrangementer</a></li>
+                <li class="menu-item"><a href="oelsmagning.html">Ølsmagning</a></li>
+                <li class="menu-item"><a href="om-os.html">Om os</a></li>
+                <li class="menu-item"><a href="kontakt.html">Kontakt</a></li>
                 <li class="search"><input type="text" placeholder="Søg..."> <!--search bar--></li>
                 <li class="toggle"><span class="menu-symbol"></span></li>
             </ul>
@@ -27,12 +29,150 @@
     </header>
 
     <main>
-        <img src="img/beer-on-table.png" alt="" class="header-img">
-        <h1>Fredericia Brewpub <br> Øl udover det sædvanlige</h1>
-        <p>Hos Fredericia Brewpub er øl ikke bare øl. Øl er en smagsoplevelse, der skal nydes. Vi forholder os til kvalitet og smag, og giver dig et bredt udvalg af gode specialøl.</p>
-    </main>
+      <div id="forsideheader" class="full">
 
-    <body>
+      </div>
+        <div class="full top bottom">
+          <div class="block">
+          <div id="tekstposition">
+          <h1>Fredericia Brewpub <br><span style="color: #F8AD15;"> Øl udover det sædvanlige</span></h1>
+          <p>Hos Fredericia Brewpub er øl ikke bare øl. Øl er en smagsoplevelse, der skal nydes. Vi forholder os til kvalitet og smag, og giver dig et bredt udvalg af gode specialøl.</p>
+          </div>
+        </div>
+        </div>
+
+
+        <div class="full  bottom">
+          <div class="content">
+              <div class="forside">
+                <h1>Bryggeri</h1>
+                <img src="image/f1.png" />
+                <div class="color">
+                <h2>Håndbrygget specialøl lavet med kærlighed</h2>
+                <p>Hos Fredericia Brewpub har vi en
+                  kærlighed for ølbrygning. Vi er stolte af
+                  vores håndværk, og vi producerer øllet
+                  som ægte håndbrygget øl. Vores øl
+                  produceres kun til Fredericia Brewpub,
+                      så du finder dem ikke andre steder.
+                      </p>
+                      <button type="button" name="button">Om os</button>
+              </div></div>
+              <div class="forside">
+                <h1>Pub</h1>
+                <img src="image/f2.png" />
+                  <div class="color">
+                <h2>Nyd gode specialøl i hyggelige omgivelser</h2>
+                <p>Fredericia Brewpub er et sted for det voksne publikum,
+                  der giver dig mulighed for at nyde godt øl i fred og ro.
+                  Hos os er smag og kvalitet i højsædet,
+                  så du altid får den bedste oplevelse.
+                  Her bestemmer vi selv, hvad vi putter på hanerne,
+                  og du har mulighed for at smage øl, du ikke kan andre steder.
+                      </p>
+                        <button type="button" name="button">Fadøl</button>
+              </div>
+            </div>
+              <div class="forside">
+                 <h1>Ølbutik</h1>
+                <img src="image/f3.png" />
+                <div class="color">
+                <h2>Et stort udvalg af spændende specialøl</h2>
+                <p>I Fredericia Brewpubs ølbutik kan du både finde gaven til
+                  værten/værtinden, og specialøllen du kan nyde sammen med familien
+                  derhjemme. Vores ølbutik rummer et bredt udvalg af spændende
+                  specialøl fra både indland og udland.
+                      </p>
+                        <button type="button" name="button">Flaskeøl</button>
+            </div>  </div>
+          </div>
+
+        </div>
+        <div class="full colors block top bottom">
+          <div class="content">
+            <h1 style="color:white !important;">Nyeste øl</h1>
+          </div>
+          <div class="content forsidep">
+            <div class="produkt-forside">
+              <img src="image/fredericia-ale.png" width="100%"/>
+              <h3 class="tekstcolorwhite">Fredericia Ale </h3>
+              <p>En lækker, letdrikkelig og frisk.</p>
+              <button  onclick="location.href='vores-oel.html'"  type="button">Læs mere</button>
+              </div>
+
+              <div class="produkt-forside">
+                <img src="image/lillebaelt-ale.png" width="100%"/>
+                <h3 class="tekstcolorwhite">Fredericia Ale </h3>
+                <p>En lækker, letdrikkelig og frisk.</p>
+                <button  onclick="location.href='vores-oel.html'"  type="button">Læs mere</button>
+                </div>
+
+            <div class="produkt-forside">
+            <img src="image/sandal-porter.png"  width="100%"/>
+            <h3 class="tekstcolorwhite">Fredericia Ale </h3>
+            <p>En lækker, letdrikkelig og frisk.</p>
+            <button  onclick="location.href='vores-oel.html'"  type="button">Læs mere</button>
+            </div>
+          </div>
+        </div>
+        <div class="full top bottom">
+          <div class="content">
+            <div class="forsidekvart ">
+              <img src="image/venner.png" width="100%"/>
+            </div>
+            <div class="forsideresten ">
+              <div class="forsideinfo">
+                <h2>Stiftende generalforsamling i FREDERICIA BREWPUB's VENNER</h2>
+                <h3 class="dato"><b>Tirsdag den 3. marts kl. 19</b></h3>
+                <p>Vil du være med til at støtte op om Fredericia Brewpub? Så har du chancen nu!
+
+                Vi etablerer foreningen FREDERICIA BREWPUB’s VENNER, der har til formål at skabe opmærksomhed og interesse for Fredericia Brewpub,
+                samt yde praktisk eller anden støtte til Fredericia Brewpub.
+                Har du lyst til at blive en del af inderkredsen, hjælpe til, når der er behov for det og deltage i specielle arrangementer med andre venner af Fredericia Brewpub?
+                <br><br>
+                Hvis du vil høre mere om FREDERICIA BREWPUB’s VENNER, så mød op på den stiftende generalforsamling. Arrangementet afvikles i Fredericia Brewpub tirsdag
+                den 3. marts 2020  kl. 19 (ingen tilmelding nødvendig).
+                </p>
+
+                <button id="arrangement" class="float-left submit-button" >Læs mere</button>
+
+
+              </div>
+            </div>
+            </div>
+          </div>
+              <div class="full top bottom">
+        <div class="content">
+            <div class="forsidekvart">
+              <img src="image/hetbillede.png" width="100%"/>
+            </div>
+            <div class="forsideresten ">
+              <div class="forsideinfo">
+                <h2>Het Anker aften med middag og tap takeover</h2>
+                <h3 class="dato"><b>Torsdag den 19. marts kl. 18:00</b></h3>
+                <p>Fredericia Brewpub er stolte over at kunne præsentere Het Anker, et af de bedste belgiske bryggerier. Vi får besøg af Het Ankers export manager Paul Barbier,
+                  der præsenterer noget af det fantastiske specialøl, der produceres på bryggeriet. Under arrangementet vil der blive serveret lækker mad, hvor øllet er anvendt som ingrediens i retterne.
+                  Der bliver tap takeover af Het Anker øl. Det betyder, at i kan nyde specialøl fra Het Anker hele dagen.
+                  Måske får du mulighed for at smage Keizer Blauw og Whisky Infused på fad denne aften.
+                  <br><br>
+                  Tilmelding: Send 395 kr. til mobilepay: 424888 (skriv "Het Anker" i besked) </p>
+                  <button id="arrangement1" class="float-left submit-button" >Læs mere</button>
+                </div>
+              </div>
+          </div>
+        </div>
+    </main>
+    <script type="text/javascript">
+        document.getElementById("arrangement").onclick = function () {
+            location.href = "arrangementer.html";
+        };
+
+        document.getElementById("arrangement1").onclick = function () {
+            location.href = "arrangementer.html";
+        };
+    </script>
+
+
     </body>
 
 </html>

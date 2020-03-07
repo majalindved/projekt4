@@ -14,6 +14,7 @@ main{
   margin-bottom: 0px;
 
 }
+
 .content{
 
   width: 80%;
@@ -79,6 +80,108 @@ h1, h2, h3, h4, h5{
   width: 50%;
   margin: auto;
   display: flex;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+
+/*nav*/
+.logo a{
+
+}
+header{
+  background: #FFF9EB;
+
+}
+
+nav{
+  width: 80%;
+    margin: auto;
+    background: #FFF9EB;
+
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0px 30px;
+}
+
+nav ul li{
+    font-size: 16px;
+    padding: 15px 5px;
+}
+
+nav ul li a{
+    color: #612300;
+    text-decoration: none;
+    display: block;
+}
+
+/*mobile nav*/
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-item{
+    width: 100%;
+    text-align: center;
+    order: 3;
+    display: none;
+}
+
+.menu-item.active{
+    display: block;
+}
+
+.search{
+    order: 2;
+}
+
+.toggle{
+    cursor: pointer;
+    order: 3;
+}
+
+.menu-symbol{
+    background: #612300;
+    display: inline-block;
+    height: 2px;
+    width: 18px;
+    position: relative;
+}
+
+.menu-symbol::before, .menu-symbol::after{
+    background: #612300;
+    display: inline-block;
+    height: 2px;
+    width: 18px;
+    position: absolute;
+    content: "";
+}
+
+.menu-symbol::before{
+    top: 5px;
+}
+
+.menu-symbol::after{
+    top: -5px;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+    text-decoration-color: #F8AD15;
+}
+
+.header-img{
+    width: 100%;
+    height: 120px;
 }
 
 /* forside */
