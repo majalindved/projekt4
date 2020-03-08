@@ -30,6 +30,12 @@ main{
   flex-direction: column;
 
 }
+img {
+  border-radius: 10px;
+}
+ .headerimg{
+   border-radius: 0px;
+ }
 h1{
   text-align: center;
   margin: auto;
@@ -108,11 +114,11 @@ header{
 
 }
 .logo img{
-  height: 120px;
+  height: 80px;
 
   }
 nav{
-  width: 65%;
+  width: 100%;
       margin-top: 40px;
       background: #FFF9EB;
 
@@ -125,7 +131,7 @@ nav ul{
 
 nav ul li{
     font-size: 16px;
-    padding: 15px 5px;
+
 }
 
 nav ul li a{
@@ -138,14 +144,13 @@ nav ul li a{
 .menu{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+
 }
 
 .menu-item{
     width: 100%;
-    text-align: center;
     order: 3;
+    margin-left: 20px;
 
 }
 
@@ -223,7 +228,6 @@ margin: 0px 0px -5px 0px;
 }
 
 .forside button{
-  margin: auto;
   text-align: center;
   margin-bottom: 20px;
 }
@@ -242,9 +246,10 @@ text-align: left;
   width: 33%;
 
 }
-
-
-
+.produkt-forside img{
+width: 80%;
+margin: 30px;
+}
 
 .halv h2{
   text-align: center;
@@ -354,6 +359,7 @@ button{
   color: white;
   border: 0px;
   padding: 5px 10px 5px 10px;
+  margin-top: 20px;
 }
 
 .voresoel{
@@ -449,11 +455,11 @@ margin: -180px 0px 0px 0px;
 
 /* The actual timeline (the vertical ruler) */
 .timeline {
-  position: absolute;
-  max-width: 1200px;
-  margin: 0 auto;
-  margin-top: 50px;
-  width: 60%;
+
+      position: relative;
+      max-width: 1200px;
+      margin-top: 50px;
+      width: 80%;
 
 }
 
@@ -520,7 +526,7 @@ footer{
     background-color: #612300;
     display: flex;
     justify-content: space-between;
-    
+
 }
 
 footer ul{
