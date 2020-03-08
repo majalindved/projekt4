@@ -90,9 +90,12 @@ h1, h2, h3, h4, h5{
 }
 
 /*nav*/
-.logo a{
 
+.between{
+  display: flex;
+  justify-content: space-between;
 }
+
 header{
   background: #FFF9EB;
   display: flex;
@@ -100,8 +103,8 @@ header{
 
 }
 .logo{
-  width: 20%;
-  text-align: right;
+
+  text-align: left;
 
 }
 .logo img{
@@ -109,8 +112,8 @@ header{
 
   }
 nav{
-  width: 60%;
-      margin: 40px 0px 0px 20px;
+  width: 65%;
+      margin-top: 40px;
       background: #FFF9EB;
 
 }
@@ -197,8 +200,8 @@ nav ul li a:hover{
 /* forside */
 
 .forside {
-padding: 0px 40px;
-width: 33%;
+padding: 0px;
+width: 30%;
 margin: 0px;
 text-align: center;
 }
@@ -257,10 +260,10 @@ text-align: left;
 }
 
 .forsideresten {
-  width: 60%;
+  width: 70%;
   margin: 0px;
   display: flex;
-  padding: 20px 20px 20px 20px;
+  padding: 25px 50px 20px 30px;
   background-color: #F9F6EC;
 }
 
@@ -278,8 +281,6 @@ text-align: left;
 .forsidep {
 width: 82%;
 margin: auto;
-display: flex;
-justify-content: space-between;
 
 }
 #tekstposition {
