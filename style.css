@@ -850,25 +850,48 @@ nav {
     justify-content: center;
 
 }
+.menu-item{
+    display: block;
+    width: auto;
+    order: 1;
+}
+.toggle{
+    display: flex;
+}
+
 
 .menu-item{
     order: 3;
     margin-left: 20px;
 }
-#oelinfo-titel{
-  display: block;
-  text-align: center;
+
+.toggle-holder{
+  position: absolute;
+  z-index: 1;
+  top: 0px;
+  right: 50px;
 }
 
-#oelinfo-titelimg{
-  display: none;
+
+
+
+.menu-item{
+    order: 3;
+    margin-left: 20px;
+}
+
+.toggle-holder{
+  position: absolute;
+  z-index: 1;
+  top: 0px;
+  right: 50px;
 }
 
 #toggle
 {
     height: 30px;
     padding: 20px 0;
-    position: relative;
+
 
 }
 
@@ -877,19 +900,35 @@ nav {
     cursor: pointer;
 }
 
-#toggle:before, #toggle:after
+#toggle:before
 {
     content: '';
     height: 4px;
     width: 26px;
     background: #5B5B5B;
-    left: 16px;
+    left: 0px;
     position: absolute;
     -webkit-transform-origin: 50% 50%;
     transform-origin: 50% 50%;
     -webkit-transition: -webkit-transform 0.25s;
     transition: transform 0.25s;
     top: 48px;
+}
+#toggle:after
+{
+    content: '';
+    height: 4px;
+    width: 26px;
+    background: #5B5B5B;
+    left: 0px;
+    position: absolute;
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    -webkit-transition: -webkit-transform 0.25s;
+    transition: transform 0.25s;
+    top: 48px;
+    -webkit-transform: translate3d(0, 8px, 0);
+    transform: translate3d(0, 8px, 0);
 }
 
 #toggle:before
@@ -912,8 +951,7 @@ nav {
 
 #toggle:after
 {
-    -webkit-transform: translate3d(0, 8px, 0);
-    transform: translate3d(0, 8px, 0);
+
 }
 
 #toggle .menu-line
@@ -921,7 +959,7 @@ nav {
     width: 26px;
     height: 4px;
     background: #5B5B5B;
-    left: 16px;
+    left: 0px;
     position: absolute;
     -webkit-transition: opacity 0.25s;
     -moz-transition: opacity 0.25s;
@@ -935,6 +973,58 @@ nav {
 {
     opacity: 0;
 }
+
+
+.menu-left-part
+{
+  display: none;
+  position: absolute;
+  overflow: hidden;
+  z-index: 1;
+  width: 100%;
+  background: #fff9eb;
+  text-align: center;
+  top: 55px;
+  padding: 20px 0px;
+  right: 0px;
+}
+
+.show {
+  display: block;
+position: fixed;}
+
+
+.logo{
+    order: 0;
+}
+
+
+.search{
+  order: 3;
+  position: absolute;
+  right: 80px;
+  top: -10px;
+  border: 2px solid;
+  background-color: white;
+  border-radius: 10px;
+  padding: 5px;
+}
+.search input{
+  border: 0px;
+      padding: 3px 0px 3px 5px;
+      border-radius: 25px;
+}
+
+
+#oelinfo-titel{
+  display: block;
+  text-align: center;
+}
+
+#oelinfo-titelimg{
+  display: none;
+}
+
 
 
 
@@ -1072,12 +1162,7 @@ width: 100%;
           order: 0;
       }
 
-      .search{
-          order: 3;
-          position: absolute;
-    right: 10%;
-    top: 55px;
-      }
+
 
       .menu li{
           padding: 10px 20px;
