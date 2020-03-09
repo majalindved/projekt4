@@ -256,8 +256,9 @@ margin: 30px;
   margin: 0px;
   display: flex;
   max-height: 250px;
-
-
+}
+.forsidekvart img {
+  border-radius: 10px 0px 0px 10px !important;
 }
 
 .forsideresten {
@@ -266,6 +267,7 @@ margin: 30px;
   display: flex;
   padding: 25px 50px 20px 30px;
   background-color: #F9F6EC;
+      border-radius: 0px 10px 10px 0px;
 }
 
 .forsideinfo h2{
@@ -1227,7 +1229,8 @@ padding-bottom: 20px !important;
 }
 
 .forsideresten {
-  width: 87%;
+  width: 100%;
+  border-radius: 10px;
 }
 
 .forsidekvart {
