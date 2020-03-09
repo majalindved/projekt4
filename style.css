@@ -499,7 +499,23 @@ margin: -180px 0px 0px 0px;
 #oelinfo-titel{
   display:none;
 }
-
+.untappd-con{
+  padding: 40px 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.untappd{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.untappd p{
+  display: flex;
+}
+.untappd img{
+  width: 25px !important;
+}
 /* The actual timeline (the vertical ruler) */
 .timeline {
 
