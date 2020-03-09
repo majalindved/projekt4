@@ -178,9 +178,6 @@ nav ul li a{
 }
 
 
-
-
-
   .search{
     border: 2px solid;
     background-color: #fff;
@@ -1072,14 +1069,12 @@ nav {
 #oelinfo-titel{
   display: block;
   text-align: center;
+  margin-bottom: 20px;
 }
 
 #oelinfo-titelimg{
   display: none;
 }
-
-
-
 
   .historie img {
       width: 100%;
