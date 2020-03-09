@@ -58,6 +58,16 @@ h1, h2, h3, h4, h5{
 .left {
   text-align: left !important;
 }
+.right {
+  left: 50%;
+}
+
+
+.colors h2{
+
+  color: #F9F6EC;
+}
+
 
 .color{
 
@@ -75,10 +85,14 @@ h1, h2, h3, h4, h5{
 }
 
 .colors{
-  width: 100%;
+
   display: flex;
   background-color: #612300;
   color: white;
+    width: 80%;
+      color: #F9F6EC;
+}
+.colors{
 }
 
 .full{
@@ -166,36 +180,11 @@ nav ul li a{
     margin-top: 40px;
 }
 
-.toggle{
-    cursor: pointer;
-    order: 3;
-    display: none;
+#toggle
+{
+    overflow: hidden;
 }
 
-.menu-symbol{
-    background: #612300;
-    display: inline-block;
-    height: 2px;
-    width: 18px;
-    position: relative;
-}
-
-.menu-symbol::before, .menu-symbol::after{
-    background: #612300;
-    display: inline-block;
-    height: 2px;
-    width: 18px;
-    position: absolute;
-    content: "";
-}
-
-.menu-symbol::before{
-    top: 5px;
-}
-
-.menu-symbol::after{
-    top: -5px;
-}
 
 nav ul li a:hover{
     text-decoration: underline;
@@ -506,10 +495,199 @@ margin: -180px 0px 0px 0px;
 
 
 /* Place the container to the right */
-.right {
-  left: 50%;
+
+.textcolorw{
+  color: #F9F6EC;
 }
 
+.oelinfo-img{
+  width: 85%;
+  margin: auto;
+
+}
+.radius{
+  border-radius: 10px;
+}
+
+.oelinfo{
+  padding: 40px 60px;
+}
+/*Horizontal Timeline */
+
+
+.fylde:before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 6px;
+    background-color: #F8AD15;
+    border-radius: 15px;
+    top: 40px;
+  }
+
+
+
+.fylde {
+    width: 100%;
+    position: relative;
+    height: 50px;
+
+    }
+
+
+.fylde:after {
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 30px;
+    left: 30%;
+    margin-left: -15px;
+    background-color: #F8AD15;
+    border: 5px solid #F8AD15;
+    content: "";
+    border-radius: 50%;
+    transition: transform .5s ease;
+  }
+
+
+  .livlighed:before {
+      position: absolute;
+      content: "";
+      width: 100%;
+      height: 6px;
+      background-color: #F8AD15;
+      border-radius: 15px;
+      top: 40px;
+    }
+
+
+
+  .livlighed {
+      width: 100%;
+      position: relative;
+          height: 50px;
+      }
+
+
+  .livlighed:after {
+    width: 15px;
+    height: 15px;
+      position: absolute;
+      top: 30px;
+      left: 50%;
+      margin-left: -15px;
+      background-color: #F8AD15;
+      border: 5px solid #F8AD15;
+      content: "";
+      border-radius: 50%;
+      transition: transform .5s ease;
+    }
+
+
+    .bitterhed:before {
+        position: absolute;
+        content: "";
+        width: 100%;
+        height: 6px;
+        background-color: #F8AD15;
+        border-radius: 15px;
+        top: 40px;
+      }
+
+
+
+    .bitterhed {
+        width: 100%;
+        position: relative;
+        height: 50px;
+        margin-bottom: 40px;
+
+        }
+
+
+    .bitterhed:after {
+      width: 15px;
+      height: 15px;
+        position: absolute;
+        top: 30px;
+        left: 30%;
+        margin-left: -15px;
+        background-color: #F8AD15;
+        border: 5px solid #F8AD15;
+        content: "";
+        border-radius: 50%;
+        transition: transform .5s ease;
+      }
+
+    .oelinfo h3{
+      color: #F9F6EC;
+      margin-top: 30px;
+      margin-bottom: 10px;
+    }
+    .oel-left{
+
+      text-align: left;
+
+    }
+    .oel-right{
+      float: right;
+    }
+
+
+.icon-box{
+  margin: auto;
+  padding: 0px 40px 40px 40px;
+}
+
+.icon-img img{
+  width: 77px;
+  height: 77px;
+  margin: 10px;
+}
+.icon-text{
+  margin: 0px 45px 0px 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.oelinfo-text{
+  margin: 0px 40px 0px 20px;
+}
+
+.oelinfo-table{
+  margin: 30px 0px 0px 40px;
+  width: 100%;
+}
+.oelinfo-table tbody{
+  width: 100%;
+}
+
+.oelinfo-table table tr {
+
+  margin-bottom: 25px;
+  display: flex;
+
+}
+.oelinfo-table table tr td{
+  min-width: 150px;
+}
+
+.oel-historie h2{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.relative h3{
+  font-size: 16px;
+  text-align: center;
+  margin: auto;
+
+}
+.relative{
+    color: #3E3E3E;
+    width: 62%;
+    margin: auto;
+}
 
 /* Add arrows to the right container (pointing left) */
 
@@ -590,7 +768,7 @@ footer a:hover {
 /* Mobil nav */
 nav {
   z-index: 1;
-  background-color: #fff9eb; 
+  background-color: #fff9eb;
   overflow: hidden;
 }
 .menu{
@@ -603,6 +781,80 @@ nav {
 .menu-item{
     order: 3;
     margin-left: 20px;
+}
+
+
+
+#toggle
+{
+    height: 30px;
+    padding: 20px 0;
+    position: relative;
+
+}
+
+#toggle:hover
+{
+    cursor: pointer;
+}
+
+#toggle:before, #toggle:after
+{
+    content: '';
+    height: 4px;
+    width: 26px;
+    background: #5B5B5B;
+    left: 16px;
+    position: absolute;
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    -webkit-transition: -webkit-transform 0.25s;
+    transition: transform 0.25s;
+    top: 48px;
+}
+
+#toggle:before
+{
+    -webkit-transform: translate3d(0, -8px, 0);
+    transform: translate3d(0, -8px, 0);
+}
+
+#toggle.on:before
+{
+    -webkit-transform: rotate3d(0, 0, 1, 45deg);
+    transform: rotate3d(0, 0, 1, 45deg);
+}
+
+#toggle.on:after
+{
+    -webkit-transform: rotate3d(0, 0, 1, -45deg);
+    transform: rotate3d(0, 0, 1, -45deg);
+}
+
+#toggle:after
+{
+    -webkit-transform: translate3d(0, 8px, 0);
+    transform: translate3d(0, 8px, 0);
+}
+
+#toggle .menu-line
+{
+    width: 26px;
+    height: 4px;
+    background: #5B5B5B;
+    left: 16px;
+    position: absolute;
+    -webkit-transition: opacity 0.25s;
+    -moz-transition: opacity 0.25s;
+    -ms-transition: opacity 0.25s;
+    -o-transition: opacity 0.25s;
+    transition: opacity 0.25s;
+    top: 48px;
+}
+
+#toggle.on .menu-line
+{
+    opacity: 0;
 }
 
 
