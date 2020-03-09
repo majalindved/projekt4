@@ -217,11 +217,14 @@ border-radius: 10px 10px 0px 0px;
 }
 
 .forside div p{
-  overflow: hidden;
+
   height: 150px;
   text-align: left;
-    padding: 0px 20px;
+    padding: 0px 20px 20px 20px;
 
+}
+.forside div{
+  border-radius: 10px;
 }
 
 .forside button{
@@ -250,8 +253,11 @@ margin: 30px;
 .produkt-forside p {
   width: 100%;
   overflow: hidden;
-  height: 50px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
   padding: 10px 30px;
+  height: 50px;
 }
 
 .halv h2{
@@ -285,8 +291,10 @@ margin: 30px;
 .forsideinfo p{
   overflow: hidden;
   text-overflow: ellipsis;
-  height: 55px;
-  white-space: wrap;
+  display: -webkit-box;
+-webkit-line-clamp: 3;
+-webkit-box-orient: vertical;
+
 }
 .forsidep {
 width: 82%;
@@ -332,7 +340,9 @@ margin: auto;
 .produkt p {
     padding: 0px 10px 0px 10px;
     text-align: center !important;
-    height: 40px;
+    display: -webkit-box;
+-webkit-line-clamp: 2;
+-webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis;
 }
@@ -421,6 +431,7 @@ text-align: center;
   width:100%;
   float: left;
   text-align: left;
+  margin-bottom: 20px;
 }
 
 .kontakt img {

@@ -12,11 +12,16 @@
     </head>
 <body>
     <header>
-      <div class="content between">
+      <div class="content">
         <div class="logo">
           <a href="index.html">
-          <img src="image/logo.png"></div>
-        <nav>
+          <img src="image/logo.png"></a></div>
+          <div class="toggle-holder">
+              <div onclick="myFunction()"  id="toggle"  class="menu-line">
+                <div class="menu-line"></div>
+              </div>
+            </div>
+        <nav  id="myDropdown" class="menu-left-part">
             <ul class="menu">
                 <li class="menu-item"><a href="index.html" >Forside</a></li>
                 <li class="menu-item"><a href="vores-oel.html">Vores øl</a></li>
@@ -24,8 +29,7 @@
                 <li class="menu-item"><a href="oelsmagning.html">Ølsmagning</a></li>
                 <li class="menu-item"><a href="om-os.html">Om os</a></li>
                 <li class="menu-item"><a href="kontakt.html">Kontakt</a></li>
-                <li class="search"><!--search bar--></li>
-                <li class="toggle"><span class="menu-symbol"></span></li>
+
             </ul>
         </nav>
         <div class="search">
@@ -156,21 +160,21 @@
             <img src="image/amarillo.png" width="100%"/>
             <h3>De Molen<br> Amarillo </h3>
             <p>Stærke humle smage, med pilsner- og karamel</p>
-            <button  onclick="location.href='vores-oel.html'"  type="button">Læs mere</button>
+            <button  onclick="location.href='amarillo.html'"  type="button">Læs mere</button>
             </div>
 
             <div class="produkt-forside">
               <img src="image/warwik7.png" width="100%"/>
               <h3>Warwik bryghus <br> 7'eren</h3>
               <p>Frisk smag af forskellige frugter.</p>
-              <button  onclick="location.href='vores-oel.html'"  type="button">Læs mere</button>
+              <button  onclick="location.href='warwik7.html'"  type="button">Læs mere</button>
               </div>
 
           <div class="produkt-forside">
           <img src="image/blavand.png"  width="100%"/>
           <h3>Warwik Bryghus<br> Blåvand</h3>
           <p>Smag af karamel, krydret eftersmag</p>
-          <button  onclick="location.href='vores-oel.html'"  type="button">Læs mere</button>
+          <button  onclick="location.href='blavand.html'"  type="button">Læs mere</button>
           </div>
         </div>
       </div>
@@ -238,8 +242,37 @@
                     </div>
                   </footer>
 
+                  <script type="text/javascript">
+                      document.getElementById("arrangement").onclick = function () {
+                          location.href = "arrangementer.html";
+                      };
 
+                      document.getElementById("arrangement1").onclick = function () {
+                          location.href = "arrangementer.html";
+                      };
 
-            </body>
+                      /* When the user clicks on the button,
+                      toggle between hiding and showing the dropdown content */
+                      function myFunction() {
+                        document.getElementById("myDropdown").classList.toggle("show");
+                      }
 
-        </html>
+                      // Close the dropdown if the user clicks outside of it
+                      window.onclick = function(event) {
+                        if (!event.target.matches('.menu-line')) {
+                          var dropdowns = document.getElementsByClassName("menu-left-part");
+                          var i;
+                          for (i = 0; i < dropdowns.length; i++) {
+                            var openDropdown = dropdowns[i];
+                            if (openDropdown.classList.contains('show')) {
+                              openDropdown.classList.remove('show');
+                            }
+                          }
+                        }
+                      }
+                  </script>
+
+                    <script src="script.js"></script>
+                  </body>
+
+                </html>
