@@ -177,6 +177,15 @@ nav ul li a{
 
 }
 
+.active-menu{
+
+  color: #F8AD15;
+}
+
+.active-menu a{
+
+  color: #F8AD15;
+}
 
   .search{
     border: 2px solid;
