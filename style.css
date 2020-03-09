@@ -41,6 +41,7 @@ img {
 h1{
   text-align: center;
   margin: auto;
+  margin-bottom: 15px;
 }
 
 h1, h2, h3, h4, h5{
@@ -144,7 +145,7 @@ nav ul li a{
 
 }
 
-/*mobile nav*/
+
 .menu{
     display: flex;
     flex-direction: row;
@@ -422,7 +423,9 @@ text-align: center;
   text-align: left;
 }
 
-
+.kontakt img {
+  width: 50px;
+}
 /* om os */
 
 
@@ -581,9 +584,29 @@ footer a:hover {
 }
 
 
-
+/* MOBIL VERSION */
 
 @media screen and (max-width: 1000px) {
+/* Mobil nav */
+nav {
+  z-index: 1;
+  background-color: #fff9eb; 
+  overflow: hidden;
+}
+.menu{
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.menu-item{
+    order: 3;
+    margin-left: 20px;
+}
+
+
+
   .historie img {
       width: 100%;
       height: 60%;
@@ -641,7 +664,7 @@ footer a:hover {
         }
 }
 
-
+/* MOBIL VERSION */
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
 @media screen and (max-width: 850px) {
@@ -805,7 +828,7 @@ width: 100%;
 
 #tekstposition h1{
   position: absolute;
-    top: 40px;
+    top: 130px;
     width: 60%;
     right: 0px;
     background-color: rgba(0,0,0,0.1);
