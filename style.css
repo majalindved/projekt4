@@ -446,7 +446,9 @@ margin: -180px 0px 0px 0px;
 }
 
 
-
+#oelinfo-titel{
+  display:none;
+}
 
 /* The actual timeline (the vertical ruler) */
 .timeline {
@@ -514,8 +516,8 @@ margin: -180px 0px 0px 0px;
 }
 /*Horizontal Timeline */
 
-
-.fylde:before {
+/* 25% */
+.p-kvart:before {
     position: absolute;
     content: "";
     width: 100%;
@@ -527,7 +529,7 @@ margin: -180px 0px 0px 0px;
 
 
 
-.fylde {
+.p-kvart {
     width: 100%;
     position: relative;
     height: 50px;
@@ -535,12 +537,12 @@ margin: -180px 0px 0px 0px;
     }
 
 
-.fylde:after {
+.p-kvart:after {
     width: 15px;
     height: 15px;
     position: absolute;
     top: 30px;
-    left: 30%;
+    left: 25%;
     margin-left: -15px;
     background-color: #F8AD15;
     border: 5px solid #F8AD15;
@@ -549,8 +551,43 @@ margin: -180px 0px 0px 0px;
     transition: transform .5s ease;
   }
 
+/*35% */
+.p-trefem:before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 6px;
+    background-color: #F8AD15;
+    border-radius: 15px;
+    top: 40px;
+  }
 
-  .livlighed:before {
+
+
+.p-trefem {
+    width: 100%;
+    position: relative;
+    height: 50px;
+
+    }
+
+
+.p-trefem:after {
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 30px;
+    left: 35%;
+    margin-left: -15px;
+    background-color: #F8AD15;
+    border: 5px solid #F8AD15;
+    content: "";
+    border-radius: 50%;
+    transition: transform .5s ease;
+  }
+
+/* 50% */
+  .p-halv:before {
       position: absolute;
       content: "";
       width: 100%;
@@ -562,14 +599,14 @@ margin: -180px 0px 0px 0px;
 
 
 
-  .livlighed {
+  .p-halv {
       width: 100%;
       position: relative;
           height: 50px;
       }
 
 
-  .livlighed:after {
+  .p-halv:after {
     width: 15px;
     height: 15px;
       position: absolute;
@@ -583,8 +620,43 @@ margin: -180px 0px 0px 0px;
       transition: transform .5s ease;
     }
 
+/* 65 % */
+.p-seksfem:before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 6px;
+    background-color: #F8AD15;
+    border-radius: 15px;
+    top: 40px;
+  }
 
-    .bitterhed:before {
+
+
+.p-seksfem {
+    width: 100%;
+    position: relative;
+    height: 50px;
+
+    }
+
+
+.p-seksfem:after {
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 30px;
+    left: 35%;
+    margin-left: -15px;
+    background-color: #F8AD15;
+    border: 5px solid #F8AD15;
+    content: "";
+    border-radius: 50%;
+    transition: transform .5s ease;
+  }
+
+/* 75% */
+    .p-trekvart:before {
         position: absolute;
         content: "";
         width: 100%;
@@ -596,7 +668,7 @@ margin: -180px 0px 0px 0px;
 
 
 
-    .bitterhed {
+    .p-trekvart {
         width: 100%;
         position: relative;
         height: 50px;
@@ -605,12 +677,12 @@ margin: -180px 0px 0px 0px;
         }
 
 
-    .bitterhed:after {
+    .p-trekvart:after {
       width: 15px;
       height: 15px;
         position: absolute;
         top: 30px;
-        left: 30%;
+        left: 75%;
         margin-left: -15px;
         background-color: #F8AD15;
         border: 5px solid #F8AD15;
@@ -648,6 +720,7 @@ margin: -180px 0px 0px 0px;
   margin: 0px 45px 0px 30px;
   display: flex;
   justify-content: space-between;
+  width: 75%;
 }
 
 .oelinfo-text{
@@ -782,8 +855,14 @@ nav {
     order: 3;
     margin-left: 20px;
 }
+#oelinfo-titel{
+  display: block;
+  text-align: center;
+}
 
-
+#oelinfo-titelimg{
+  display: none;
+}
 
 #toggle
 {
