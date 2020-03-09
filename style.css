@@ -194,8 +194,9 @@ nav ul li a{
   }
 
 
-#toggle
+.toggle-holder
 {
+  display: none;
 }
 
 
@@ -925,9 +926,7 @@ nav {
     width: auto;
     order: 1;
 }
-.toggle{
-    display: flex;
-}
+
 
 
 .menu-item{
@@ -936,6 +935,7 @@ nav {
 }
 
 .toggle-holder{
+    display: flex;
   position: absolute;
   z-index: 1;
   top: 0px;
@@ -1165,9 +1165,6 @@ width: 100%;
           display: flex;
       }
 
-      .logo{
-
-      }
 
 
 
