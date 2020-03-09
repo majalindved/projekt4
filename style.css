@@ -213,6 +213,7 @@ text-align: center;
 .forside img{
 max-width: 100%;
 margin: 0px 0px -5px 0px;
+border-radius: 10px 10px 0px 0px;
 }
 
 .forside div p{
@@ -245,6 +246,12 @@ text-align: left;
 .produkt-forside img{
 width: 80%;
 margin: 30px;
+}
+.produkt-forside p {
+  width: 100%;
+  overflow: hidden;
+  height: 50px;
+  padding: 10px 30px;
 }
 
 .halv h2{
@@ -482,7 +489,7 @@ margin: -180px 0px 0px 0px;
   position: relative;
   background-color: inherit;
   width: 80%;
-      margin-top: 40px;
+  margin-top: 40px;
 }
 
 /* The circles on the timeline */
@@ -765,8 +772,6 @@ margin: -180px 0px 0px 0px;
     width: 62%;
     margin: auto;
 }
-
-/* Add arrows to the right container (pointing left) */
 
 
 /* Fix the circle for containers on the right side */
@@ -1069,7 +1074,6 @@ nav {
         .container {
           width: 100%;
           padding-left: 70px;
-          padding-right: 25px;
         }
 
       /* Make sure that all arrows are pointing leftwards */
@@ -1129,7 +1133,6 @@ width: 100%;
   .container {
     width: 100%;
     padding-left: 70px;
-    padding-right: 25px;
   }
 
 /* Make sure that all arrows are pointing leftwards */
@@ -1222,6 +1225,7 @@ padding-bottom: 20px !important;
 .produkt-forside{
   width: 100%;
 }
+
 
 .forside h1{
   margin-bottom: 20px;
