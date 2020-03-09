@@ -221,6 +221,13 @@ text-align: center;
   margin-bottom: 20px;
 
 }
+
+.forside-p{
+    font-size: 28px;
+    color: #612300;
+    margin: 20px 0px 10px 0px;
+}
+
 .forside img{
 max-width: 100%;
 margin: 0px 0px -5px 0px;
@@ -757,6 +764,16 @@ margin: -180px 0px 0px 0px;
         transition: transform .5s ease;
       }
 
+      .untappd-con {
+          padding: 40px 60px;
+          display: flex;
+          flex-direction: column;
+
+      }
+      .untappd {
+        margin-bottom: 15px;
+      }
+
     .oelinfo h3{
       color: #F9F6EC;
       margin-top: 30px;
@@ -930,7 +947,7 @@ nav {
   position: absolute;
   z-index: 1;
   top: 0px;
-  right: 50px;
+  right: 68px;
 }
 
 
@@ -941,18 +958,10 @@ nav {
     margin-left: 20px;
 }
 
-.toggle-holder{
-  position: absolute;
-  z-index: 1;
-  top: 0px;
-  right: 50px;
-}
 
 #toggle
 {
     height: 30px;
-    padding: 20px 0;
-
 
 }
 
@@ -961,79 +970,17 @@ nav {
     cursor: pointer;
 }
 
-#toggle:before
-{
-    content: '';
-    height: 4px;
-    width: 26px;
-    background: #5B5B5B;
-    left: 0px;
-    position: absolute;
-    -webkit-transform-origin: 50% 50%;
-    transform-origin: 50% 50%;
-    -webkit-transition: -webkit-transform 0.25s;
-    transition: transform 0.25s;
-    top: 48px;
-}
-#toggle:after
-{
-    content: '';
-    height: 4px;
-    width: 26px;
-    background: #5B5B5B;
-    left: 0px;
-    position: absolute;
-    -webkit-transform-origin: 50% 50%;
-    transform-origin: 50% 50%;
-    -webkit-transition: -webkit-transform 0.25s;
-    transition: transform 0.25s;
-    top: 48px;
-    -webkit-transform: translate3d(0, 8px, 0);
-    transform: translate3d(0, 8px, 0);
-}
-
-#toggle:before
-{
-    -webkit-transform: translate3d(0, -8px, 0);
-    transform: translate3d(0, -8px, 0);
-}
-
-#toggle.on:before
-{
-    -webkit-transform: rotate3d(0, 0, 1, 45deg);
-    transform: rotate3d(0, 0, 1, 45deg);
-}
-
-#toggle.on:after
-{
-    -webkit-transform: rotate3d(0, 0, 1, -45deg);
-    transform: rotate3d(0, 0, 1, -45deg);
-}
-
-#toggle:after
-{
-
-}
 
 #toggle .menu-line
 {
-    width: 26px;
-    height: 4px;
-    background: #5B5B5B;
-    left: 0px;
-    position: absolute;
-    -webkit-transition: opacity 0.25s;
-    -moz-transition: opacity 0.25s;
-    -ms-transition: opacity 0.25s;
-    -o-transition: opacity 0.25s;
-    transition: opacity 0.25s;
-    top: 48px;
+
+  position: absolute;
+top: 30px;
+font-size: 22px;
+
 }
 
-#toggle.on .menu-line
-{
-    opacity: 0;
-}
+
 
 
 .menu-left-part
