@@ -764,15 +764,7 @@ margin: -180px 0px 0px 0px;
         transition: transform .5s ease;
       }
 
-      .untappd-con {
-          padding: 40px 60px;
-          display: flex;
-          flex-direction: column;
 
-      }
-      .untappd {
-        margin-bottom: 15px;
-      }
 
     .oelinfo h3{
       color: #F9F6EC;
@@ -1034,6 +1026,15 @@ font-size: 22px;
 
 #oelinfo-titelimg{
   display: none;
+}
+.untappd-con {
+    padding: 40px 60px;
+    display: flex;
+    flex-direction: column;
+
+}
+.untappd {
+  margin-bottom: 15px;
 }
 
   .historie img {
