@@ -9,9 +9,9 @@ main{
   margin: auto;
   display: flex;
   flex-wrap: wrap;
-  overflow: hidden;
   padding: 0px;
   margin-bottom: 0px;
+  padding-top: 100px;
 
 }
 
@@ -185,7 +185,6 @@ nav ul li a{
 
 #toggle
 {
-    overflow: hidden;
 }
 
 
@@ -845,7 +844,7 @@ footer a:hover {
 nav {
   z-index: 1;
   background-color: #fff9eb;
-  overflow: hidden;
+
 }
 .menu{
     display: block;
