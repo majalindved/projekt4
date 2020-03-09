@@ -296,6 +296,9 @@ margin: 30px;
 -webkit-box-orient: vertical;
 
 }
+
+
+
 .forsidep {
 width: 82%;
 margin: auto;
@@ -349,6 +352,13 @@ margin: auto;
 
 .produkt h3{
   text-align: center;
+
+}
+
+.produkt-titel{
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #F8AD15;
 
 }
 #myDIV {
@@ -1238,6 +1248,11 @@ padding-bottom: 20px !important;
 }
 
 
+.forsideinfo button{
+text-align: center;
+margin: auto;
+
+}
 .forside h1{
   margin-bottom: 20px;
   margin-top: 20px;
