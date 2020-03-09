@@ -30,6 +30,7 @@ main{
   flex-direction: column;
 }
 
+
 img {
   border-radius: 10px;
 }
@@ -127,7 +128,7 @@ header{
   height: 100px;
   width: 100%;
 position: fixed;
-    z-index: 1
+    z-index: 9999;
 
 }
 .logo{
@@ -171,17 +172,30 @@ nav ul li a{
 }
 
 .menu-item{
-    order: 3;
+
     margin-left: 20px;
 
 }
 
 
 
-.search{
-    order: 2;
-    margin-top: 40px;
-}
+
+
+  .search{
+    border: 2px solid;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 5px;
+    height: 33px;
+    margin-top: 33px;
+
+  }
+  .search input{
+    border: 0px;
+        padding: 3px 0px 3px 5px;
+        border-radius: 25px;
+  }
+
 
 #toggle
 {
@@ -1036,7 +1050,7 @@ nav {
 
 
 .search{
-  order: 3;
+
   position: absolute;
   right: 80px;
   top: -10px;
@@ -1188,7 +1202,7 @@ width: 100%;
       .menu-item{
           display: block;
           width: auto;
-          order: 1;
+
       }
 
       .toggle{
@@ -1196,7 +1210,7 @@ width: 100%;
       }
 
       .logo{
-          order: 0;
+
       }
 
 
