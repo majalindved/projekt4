@@ -242,9 +242,37 @@
                       </ul>
                     </div>
                   </footer>
+                  <script type="text/javascript">
+                      document.getElementById("arrangement").onclick = function () {
+                          location.href = "arrangementer.html";
+                      };
 
+                      document.getElementById("arrangement1").onclick = function () {
+                          location.href = "arrangementer.html";
+                      };
 
+                      /* When the user clicks on the button,
+                      toggle between hiding and showing the dropdown content */
+                      function myFunction() {
+                        document.getElementById("myDropdown").classList.toggle("show");
+                      }
 
-            </body>
+                      // Close the dropdown if the user clicks outside of it
+                      window.onclick = function(event) {
+                        if (!event.target.matches('.menu-line')) {
+                          var dropdowns = document.getElementsByClassName("menu-left-part");
+                          var i;
+                          for (i = 0; i < dropdowns.length; i++) {
+                            var openDropdown = dropdowns[i];
+                            if (openDropdown.classList.contains('show')) {
+                              openDropdown.classList.remove('show');
+                            }
+                          }
+                        }
+                      }
+                  </script>
 
-        </html>
+                    <script src="script.js"></script>
+                  </body>
+
+                </html>

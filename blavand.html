@@ -12,11 +12,16 @@
     </head>
 <body>
     <header>
-      <div class="content between">
+      <div class="content">
         <div class="logo">
           <a href="index.html">
-          <img src="image/logo.png"></div>
-        <nav>
+          <img src="image/logo.png"></a></div>
+          <div class="toggle-holder">
+              <div onclick="myFunction()"  id="toggle"  class="menu-line">
+                <div class="menu-line"></div>
+              </div>
+            </div>
+        <nav  id="myDropdown" class="menu-left-part">
             <ul class="menu">
                 <li class="menu-item"><a href="index.html" >Forside</a></li>
                 <li class="menu-item"><a href="vores-oel.html">Vores øl</a></li>
@@ -24,8 +29,7 @@
                 <li class="menu-item"><a href="oelsmagning.html">Ølsmagning</a></li>
                 <li class="menu-item"><a href="om-os.html">Om os</a></li>
                 <li class="menu-item"><a href="kontakt.html">Kontakt</a></li>
-                <li class="search"><!--search bar--></li>
-                <li class="toggle"><span class="menu-symbol"></span></li>
+
             </ul>
         </nav>
         <div class="search">
@@ -241,9 +245,37 @@
                       </ul>
                     </div>
                   </footer>
+                  <script type="text/javascript">
+                      document.getElementById("arrangement").onclick = function () {
+                          location.href = "arrangementer.html";
+                      };
 
+                      document.getElementById("arrangement1").onclick = function () {
+                          location.href = "arrangementer.html";
+                      };
 
+                      /* When the user clicks on the button,
+                      toggle between hiding and showing the dropdown content */
+                      function myFunction() {
+                        document.getElementById("myDropdown").classList.toggle("show");
+                      }
 
-            </body>
+                      // Close the dropdown if the user clicks outside of it
+                      window.onclick = function(event) {
+                        if (!event.target.matches('.menu-line')) {
+                          var dropdowns = document.getElementsByClassName("menu-left-part");
+                          var i;
+                          for (i = 0; i < dropdowns.length; i++) {
+                            var openDropdown = dropdowns[i];
+                            if (openDropdown.classList.contains('show')) {
+                              openDropdown.classList.remove('show');
+                            }
+                          }
+                        }
+                      }
+                  </script>
 
-        </html>
+                    <script src="script.js"></script>
+                  </body>
+
+                </html>
