@@ -1014,7 +1014,10 @@ position: fixed;}
       padding: 3px 0px 3px 5px;
       border-radius: 25px;
 }
-
+.headerimg{
+  height: 100px;
+  width: 100%;
+}
 
 #oelinfo-titel{
   display: block;
@@ -1257,9 +1260,6 @@ width: 100%;
 }
 
 
-img {
-  margin-left: -20px;
-}
 
 .forsidekvart img {
   margin-left: 0px;
