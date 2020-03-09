@@ -238,14 +238,13 @@ text-align: left;
 }
 .produkt-forside{
 
-
   flex-direction: column;
   text-align: center;
   padding: 0px !important;
   margin: 0px;
   width: 33%;
-
 }
+
 .produkt-forside img{
 width: 80%;
 margin: 30px;
@@ -348,6 +347,7 @@ margin: auto;
 -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis;
+    height: 40px;
 }
 
 .produkt h3{
@@ -359,7 +359,14 @@ margin: auto;
   font-size: 18px;
   font-weight: bold;
   color: #551F01;
-
+  padding: 0px 10px 0px 10px;
+text-align: center !important;
+display: -webkit-box;
+-webkit-line-clamp: 2;
+-webkit-box-orient: vertical;
+overflow: hidden;
+text-overflow: ellipsis;
+height: 50px;
 }
 #myDIV {
   display: flex;
