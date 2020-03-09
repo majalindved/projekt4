@@ -783,10 +783,7 @@ margin: -180px 0px 0px 0px;
   margin: 10px;
 }
 .icon-text{
-  margin: 0px 45px 0px 30px;
-  display: flex;
-  justify-content: space-between;
-  width: 75%;
+  text-align: center;
 }
 
 .oelinfo-text{
