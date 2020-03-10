@@ -77,12 +77,16 @@ h1, h2, h3, h4, h5{
 
 .tekstcolorwhite {
   color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+    height: 60px !important;
 }
 
 .dato {
   color: #F8AD15;
   font-size: 15px;
   margin-bottom: 20px;
+
 }
 
 .colors{
@@ -299,6 +303,7 @@ margin: 30px;
 }
 .forsidekvart img {
   border-radius: 10px 0px 0px 10px !important;
+  width: 100%;
 }
 
 .forsideresten {
@@ -394,7 +399,7 @@ display: -webkit-box;
 -webkit-box-orient: vertical;
 overflow: hidden;
 text-overflow: ellipsis;
-height: 50px;
+height: 50px !important;
 }
 #myDIV {
   display: flex;
@@ -884,6 +889,7 @@ footer{
     background-color: #612300;
     display: flex;
     justify-content: space-between;
+    color: #FFF9EB;
 
 }
 
@@ -905,7 +911,7 @@ footer #aabningstider{
     justify-content: space-between;
 }
 
-footer #overskrift {
+footer .overskrift {
     font-weight: bold;
     font-size: 22px;
     padding: 0px 0px 15px 0px;
