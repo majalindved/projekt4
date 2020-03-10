@@ -608,9 +608,9 @@ margin: -180px 0px 0px 0px;
 .container::after {
   content: '';
   position: absolute;
-  width: 25px;
-  height: 25px;
-  right: -17px;
+  width: 32px;
+height: 32px;
+right: -25px;
   background-color: #F8AD15;
   top: 45px;
   border-radius: 50%;
@@ -660,8 +660,8 @@ margin: -180px 0px 0px 0px;
 
 
 .p-kvart:after {
-    width: 15px;
-    height: 15px;
+    width: 24px;
+    height: 24px;
     position: absolute;
     top: 30px;
     left: 25%;
@@ -694,8 +694,8 @@ margin: -180px 0px 0px 0px;
 
 
 .p-trefem:after {
-    width: 15px;
-    height: 15px;
+  width: 24px;
+  height: 24px;
     position: absolute;
     top: 30px;
     left: 35%;
@@ -727,8 +727,8 @@ margin: -180px 0px 0px 0px;
 
 
   .p-halv:after {
-    width: 15px;
-    height: 15px;
+    width: 24px;
+    height: 24px;
       position: absolute;
       top: 30px;
       left: 50%;
@@ -761,8 +761,8 @@ margin: -180px 0px 0px 0px;
 
 
 .p-seksfem:after {
-    width: 15px;
-    height: 15px;
+  width: 24px;
+  height: 24px;
     position: absolute;
     top: 30px;
     left: 65%;
@@ -796,8 +796,8 @@ margin: -180px 0px 0px 0px;
 
 
     .p-trekvart:after {
-      width: 15px;
-      height: 15px;
+      width: 24px;
+      height: 24px;
         position: absolute;
         top: 30px;
         left: 75%;
