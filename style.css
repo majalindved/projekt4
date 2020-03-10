@@ -445,7 +445,9 @@ button{
 }
 
 /*Øl Smag */
-
+.billedemellemrum img{
+  width: 100%;
+}
 
 .billedemellemrum {
   padding: 20px;
@@ -921,8 +923,9 @@ footer #aabningstider{
 
 footer .overskrift {
     font-weight: bold;
-    font-size: 22px;
-    padding: 0px 0px 15px 0px;
+    font-size: 22px;  
+    padding: 30px 0px 15px 0px;
+}
 }
 
 footer #underoverskrift {
