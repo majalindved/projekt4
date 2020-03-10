@@ -388,7 +388,7 @@ margin: auto;
 
 }
 .produkt img{
-  width: 100px;
+  width: 100%;
 
 }
 
@@ -463,7 +463,9 @@ button{
   display: flex;
 
 }
-
+.kvart img{
+  width: 100%;
+}
 .resten {
   width: 60%;
   margin: auto;
@@ -521,16 +523,17 @@ margin: -180px 0px 0px 0px;
 
 }
 
-
 #oelinfo-titel{
   display:none;
 }
+
 .Untappd-con{
   padding: 40px 60px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
+
 .Untappd {
   display: flex;
   flex-direction: row;
@@ -1070,7 +1073,7 @@ font-size: 22px;
 .untappd-con {
     padding: 40px 60px;
     display: flex;
-    flex-direction: column;
+    flex-direction: column !important;
 
 }
 .untappd {
@@ -1239,6 +1242,9 @@ orie img {
   margin-top: 20px;
 
 
+}
+.kvart img{
+  width: 100%;
 }
 
 .resten {
