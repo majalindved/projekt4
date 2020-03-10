@@ -387,6 +387,10 @@ margin: auto;
   text-align: center;
 
 }
+.produkt img{
+  width: 100px;
+
+}
 
 .produkt-titel{
   font-size: 18px;
