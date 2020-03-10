@@ -527,7 +527,7 @@ margin: -180px 0px 0px 0px;
   display:none;
 }
 
-.Untappd-con{
+.untappd-con{
   padding: 40px 60px;
   display: flex;
   flex-direction: row;
@@ -561,6 +561,9 @@ margin: -180px 0px 0px 0px;
 }
 
 
+.booking img{
+    width: 100% !important;
+}
 /* The actual timeline (the vertical ruler) */
 .timeline {
 
@@ -605,7 +608,6 @@ margin: -180px 0px 0px 0px;
   height: 25px;
   right: -17px;
   background-color: #F8AD15;
-  border: 4px solid #F8AD15;
   top: 45px;
   border-radius: 50%;
   z-index: 1;
@@ -661,7 +663,6 @@ margin: -180px 0px 0px 0px;
     left: 25%;
     margin-left: -15px;
     background-color: #F8AD15;
-    border: 5px solid #F8AD15;
     content: "";
     border-radius: 50%;
     transition: transform .5s ease;
@@ -696,7 +697,6 @@ margin: -180px 0px 0px 0px;
     left: 35%;
     margin-left: -15px;
     background-color: #F8AD15;
-    border: 5px solid #F8AD15;
     content: "";
     border-radius: 50%;
     transition: transform .5s ease;
@@ -730,7 +730,6 @@ margin: -180px 0px 0px 0px;
       left: 50%;
       margin-left: -15px;
       background-color: #F8AD15;
-      border: 5px solid #F8AD15;
       content: "";
       border-radius: 50%;
       transition: transform .5s ease;
@@ -765,7 +764,6 @@ margin: -180px 0px 0px 0px;
     left: 65%;
     margin-left: -15px;
     background-color: #F8AD15;
-    border: 5px solid #F8AD15;
     content: "";
     border-radius: 50%;
     transition: transform .5s ease;
@@ -801,7 +799,6 @@ margin: -180px 0px 0px 0px;
         left: 75%;
         margin-left: -15px;
         background-color: #F8AD15;
-        border: 5px solid #F8AD15;
         content: "";
         border-radius: 50%;
         transition: transform .5s ease;
@@ -1080,6 +1077,7 @@ font-size: 22px;
   margin-bottom: 15px;
 }
 
+
   .historie img {
       width: 100%;
       height: 60%;
@@ -1122,7 +1120,7 @@ font-size: 22px;
           left: 60px;
           border: medium solid #fff;
           border-width: 10px 10px 10px 0;
-          border-color: transparent #fff transparent transparent;
+
         }
 
       /* Make sure all circles are at the same spot */
@@ -1185,8 +1183,7 @@ orie img {
     left: 60px;
     border: medium solid #fff;
     border-width: 10px 10px 10px 0;
-    border-color: transparent #fff transparent transparent;
-  }
+    }
 
 /* Make sure all circles are at the same spot */
   .left::after, .right::after {
