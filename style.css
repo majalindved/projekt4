@@ -533,6 +533,10 @@ margin: -180px 0px 0px 0px;
   flex-direction: row;
   justify-content: space-between;
 }
+.untappd-con div img {
+
+  width: 20px;
+}
 
 .Untappd {
   display: flex;
